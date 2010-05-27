@@ -6,7 +6,7 @@ Summary:	Pure Java library implementing the Git
 Summary(pl.UTF-8):	Biblioteka jezyka java implementująca Git
 Name:		java-jgit
 Version:	0.7.1
-Release:	0.1
+Release:	1
 License:	EDL
 Group:		Libraries/Java
 Source0:	http://download.eclipse.org/jgit/maven/org/eclipse/jgit/org.eclipse.jgit/%{version}/org.eclipse.jgit-%{version}.jar
@@ -15,7 +15,6 @@ URL:		http://eclipse.org/jgit/
 BuildRequires:	jpackage-utils
 BuildRequires:	rpm-javaprov
 BuildRequires:	rpmbuild(macros) >= 1.300
-BuildRequires:	sed >= 4.0
 Requires:	jpackage-utils
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
