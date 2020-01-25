@@ -1,5 +1,4 @@
 
-%include	/usr/lib/rpm/macros.java
 
 %define		srcname		jgit
 Summary:	Pure Java library implementing the Git
